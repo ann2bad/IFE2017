@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+
+.header {
+  background-color: gray;
+  color: white;
+  width: 100%;
+  position: relative;
+  
+
+}
+
+.header h1 {
+  margin: 5px;
+  font-size: 30px;
+  display: inline-block;
+  
+}
+
+.header ul {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.header ul li {
+  display: inline;
+}
+
+.body,body {
+  background-color: lightgray;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color:silver;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+h4 {
+  color: silver;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  text-indent: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.news {
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+}
+
+#tb1 {
+  width: 100%;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+th,td {
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-collapse: collapse;
+}
+#last td {
+  background-color: lightgray;
+}
+th {
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+.slide {
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer p {
+  width: 7em;
+  margin: 0 auto;
+}
