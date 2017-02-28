@@ -34,17 +34,17 @@
       */
       var newData = [];
       var list = document.getElementById("aqi-list");
-      for (var item in aqiData) {
-        if (item[1] > 60) {
-          newData.push(item);
+      for (var i = 0; i < aqiData.length; i++) {
+        if (aqi[i][1] > 60) {
+          newData.push(aqi[i]);
         }
       }
 
       newData.sort((a, b) => a[1] - b[1]);
 
-      for (var item in newData) {
+      for (var i = 0; i < newData.length; i++) {
         var li = document.createElement("li");
-        var txt = document.createTextNode("第一名：" + item[0] + ", " + item[1]);
+        var txt = document.createTextNode("第一名：" + newData[i][0] + ", " + newData[i][1]);
         li.appendChild(txt);
         list.appendChild(li);
       }
