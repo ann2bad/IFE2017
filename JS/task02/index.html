@@ -44,7 +44,8 @@
 
       for (var item in newData) {
         var li = document.createElement("li");
-        li.innerText = "第一名：" + item[0] + ", " + item[1];
+        var txt = document.createTextNode("第一名：" + item[0] + ", " + item[1]);
+        li.appendChild(txt);
         list.appendChild(li);
       }
 
