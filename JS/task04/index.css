@@ -1,0 +1,6 @@
+#list li{
+  display: inline;
+  background-color: red;
+  margin: 2px;
+  padding: 2px;
+}
