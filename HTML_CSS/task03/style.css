@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+div {
+  border: 1px solid #999;
+}
+
+.box {
+  background-color: #eee;
+  position: relative;
+  min-height: 530px;
+}
+
+.logo {
+  background-color: #eee;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.left,
+.right,
+.content {
+  margin: 20px;
+  background-color: #fff;
+}
+
+.left {
+  width: 200px;
+  position: absolute;
+}
+
+.right {
+  width: 120px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.content {
+  margin-left: 240px;
+  margin-right: 160px;
+}
